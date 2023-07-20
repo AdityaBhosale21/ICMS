@@ -4,6 +4,7 @@ CREATE OR REPLACE PACKAGE Pkg_Ent_Dmg_Chng_Dtls IS
   -- Purpose : Package to fetch entity details for demographic change page
   -- Called By: Demographic change page
   -- KAPIL
+-- Aditya
   --Procedure to fetch entity details
   PROCEDURE p_Get_Ent_Dtls(i_Ent_Id     IN VARCHAR2,
                            o_Ref_Cursor OUT SYS_REFCURSOR,
